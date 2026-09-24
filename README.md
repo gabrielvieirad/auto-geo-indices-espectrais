@@ -2,9 +2,9 @@
 
 Aplicação em Python que busca, processa e calcula índices espectrais (NDVI e NDWI) a partir de imagens de satélite Landsat, de forma totalmente automatizada — sem download manual de imagens.
 
-🔗 **App funcionando:** [seuprojeto.streamlit.app](#) <!-- substitua pelo link do Streamlit Cloud -->
+🔗 **App funcionando:** [https://ddynedif7tmbqouw2chqyz.streamlit.app/](#) <!-- substitua pelo link do Streamlit Cloud -->
 
-![Preview do resultado](docs/preview_exemplo.png) <!-- substitua pelo print/preview gerado pelo programa -->
+![Preview do resultado](img/preview_exemplo.png) <!-- substitua pelo print/preview gerado pelo programa -->
 
 ## O que o projeto faz
 
