@@ -20,7 +20,7 @@ st.set_page_config(
 
 st.title("Processador Automático de Imagens de Satélite")
 st.markdown(
-    "Busca, processa e calcula índices espectrais (NDVI) a partir de imagens Landsat, "
+    "Busca, processa e calcula índices espectrais a partir de imagens Landsat, "
     "usando o catálogo público do Microsoft Planetary Computer."
 )
 
