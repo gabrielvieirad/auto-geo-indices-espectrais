@@ -129,7 +129,7 @@ if st.button("Processar", type="primary"):
             gerar_preview(resultado, nome_png, titulo=indice, cmap=cmap)
             
             status.update(label="Concluído!",state="complete")
-            st.image("nome.png",caption=f"{indice} calculado para a área selecionada",width="stretch")
+            st.image(nome_png,caption=f"{indice} calculado para a área selecionada",width="stretch")
 
             col_a, col_b = st.columns(2)
             with col_a:
@@ -146,5 +146,5 @@ if st.button("Processar", type="primary"):
             st.error(str(e))
 
         except Exception as e:
-            status.update(label="Erro",tate="error")
+            status.update(label="Erro",state="error")
             st.error(f"Erro inesperado: {e}")
