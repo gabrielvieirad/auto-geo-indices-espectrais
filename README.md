@@ -1,10 +1,10 @@
-# 🛰️ Processador Automático de Índices Espectrais (NDVI/NDWI)
+# Processador Automático de Índices Espectrais (NDVI/NDWI)
 
-Aplicação em Python que busca, processa e calcula índices espectrais (NDVI e NDWI) a partir de imagens de satélite Landsat, de forma totalmente automatizada — sem download manual de imagens.
+Aplicação em Python que busca, processa e calcula índices espectrais (NDVI e NDWI) a partir de imagens de satélite Landsat, de forma totalmente automatizada, sem download manual de imagens.
 
-🔗 **App funcionando:** [seuprojeto.streamlit.app](#) <!-- substitua pelo link do Streamlit Cloud -->
+**App funcionando:** [https://ddynedif7tmbqouw2chqyz.streamlit.app/](#) 
 
-![Preview do resultado](docs/preview_exemplo.png) <!-- substitua pelo print/preview gerado pelo programa -->
+![Preview do resultado](https://github.com/gabrielvieirad/auto-geo-indices-espectrais/blob/main/preview.jpg) 
 
 ## O que o projeto faz
 
@@ -48,7 +48,6 @@ Parâmetros disponíveis:
 | Parâmetro | Descrição |
 |---|---|
 | `--bbox` | Área de interesse em WGS84: `LON_MIN LAT_MIN LON_MAX LAT_MAX` |
-| `--shapefile` | Alternativa ao bbox: caminho para um shapefile/GeoJSON |
 | `--inicio` / `--fim` | Período de busca (AAAA-MM-DD) |
 | `--nuvem-max` | Cobertura máxima de nuvem em % (padrão: 20) |
 | `--satelite` | Satélite de origem (por enquanto só `landsat`) |
@@ -66,7 +65,7 @@ codigos/
 └── .gitignore
 ```
 
-A lógica de negócio fica isolada em `core.py`, reutilizada tanto pela CLI quanto pela interface web — nenhuma duplicação de código entre os dois modos de uso.
+A lógica de negócio fica isolada em `core.py`, reutilizada tanto pela CLI quanto pela interface web, nenhuma duplicação de código entre os dois modos de uso.
 
 ## Fonte dos dados
 
@@ -90,4 +89,4 @@ As imagens são obtidas via [Microsoft Planetary Computer](https://planetarycomp
 
 ## Autor
 
-[Seu nome] — [link do LinkedIn]
+Gabriel Vieira — https://www.linkedin.com/in/gabrielvieirad/
